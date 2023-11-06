@@ -5,7 +5,7 @@ const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
+          <h2 className="text-base uppercase font-titleFont mb-4 text-black">
         WHY Besto Solutions
           </h2>
           <div className="flex gap-4">
@@ -21,7 +21,7 @@ const Media = () => {
           </div>
         </div>
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
+          <h2 className="text-base uppercase font-titleFont mb-4 text-black">
           Here’s Why
           </h2>
           <div className="flex gap-4">

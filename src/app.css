@@ -1,8 +1,7 @@
-@layer components {
-    /* ... Your existing CSS classes ... */
-  
-    .readMoreButton {
-      @apply bg-black text-white py-2 px-4 rounded-md hover:bg-opacity-40 cursor-pointer duration-300;
-      /* Add any additional styles you want for the button here */
-    }
-  }
+/* Navbar.css */
+/* Add your custom CSS styles here */
+
+/* Example styling for the dropdown subheadings */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}

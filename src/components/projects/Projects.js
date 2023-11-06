@@ -11,7 +11,7 @@ const Projects = () => {
       id="projects"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
-      <div className="flex justify-center items-center text-center">
+      <div className="flex justify-center  items-center text-center">
         <Title
           title="HAPPY CUSTOMERS"
           des="Success Stories"
