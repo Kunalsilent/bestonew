@@ -3,6 +3,10 @@ import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
 
 const Contact = () => {
+  const redShadowStyle = {
+    boxShadow: "0 0 10px gray",
+  };
+  
   const [username, setUsername] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
@@ -56,8 +60,9 @@ const Contact = () => {
       <div className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft /><br></br>
-          <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#ffff] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow">
-            <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
+          <div className="w-full lgl:w-[60%] h-full py-10 bg-gray-200 text-black flex flex-col gap-8 p-4 lgl:p-8 shadow-red"
+ style={redShadowStyle} >
+            <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5" >
              
               <div className="w-full flex flex-col lgl:flex-row gap-10 colo">
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
@@ -65,18 +70,18 @@ const Contact = () => {
                     Your name
                   </p>
                   <input
-                    onChange={(e) => setUsername(e.target.value)}
-                    value={username}
-                   className=' bg-[]'
-                    type="text"
-                  />
+  onChange={(e) => setUsername(e.target.value)}
+  value={username}
+  className='bg-gray-100 h-10 p-2 rounded-md'
+  type="text"
+/>
                 </div>
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
                   <p className="text-sm text-black font-bold uppercase tracking-wide">
                     Phone Number
                   </p>
                   <input
-                    onChange={(e) => setPhoneNumber(e.target.value)}
+                    onChange={(e) => setPhoneNumber(e.target.value)} className='bg-gray-100 h-10 p-2 rounded-md'
                     value={phoneNumber}
                    
                     type="text"
@@ -88,7 +93,7 @@ const Contact = () => {
                   Email
                 </p>
                 <input
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => setEmail(e.target.value)} className='bg-gray-100 h-10 p-2 rounded-md'
                   value={email}
                  
                   type="email"
@@ -99,7 +104,7 @@ const Contact = () => {
                   Subject
                 </p>
                 <input
-                  onChange={(e) => setSubject(e.target.value)}
+                  onChange={(e) => setSubject(e.target.value)} className='bg-gray-100 h-10 p-2 rounded-md'
                   value={subject}
                  
                   type="text"
@@ -110,7 +115,7 @@ const Contact = () => {
                   Message
                 </p>
                 <textarea
-                  onChange={(e) => setMessage(e.target.value)}
+                  onChange={(e) => setMessage(e.target.value)} 
                   value={message}
                  
                   cols="30"

@@ -19,26 +19,7 @@ const Company = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-6 xl:gap-14">
-        <ProjectsCard
-         
-          src={Companyone}
-        />
-        <ProjectsCard
         
-        src={Companytwo}
-        />
-     
-        <ProjectsCard
-        
-        src={Companythree}
-        />
-          <ProjectsCard
-        
-        src={Companyfour}
-      /> <ProjectsCard
-        
-        src={Companyfive}
-      />
       
       </div>
     </section>

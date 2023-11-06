@@ -3,8 +3,11 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
+  const redShadowStyle = {
+    boxShadow: "0 0 10px gray",
+  };
   return (
-    <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#ffff] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
+    <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#ffff] to-[rgb(225 110 158 / 50%)] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center"  style={redShadowStyle} >
       <img
         className="w-full h-64 object-cover rounded-lg mb-2"
         src={contactImg}
@@ -29,13 +32,13 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4 text-black">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <span className="bannerIcon" style={redShadowStyle}>
             <FaFacebookF />
           </span>
-          <span className="bannerIcon">
+          <span className="bannerIcon" style={redShadowStyle}>
             <FaTwitter />
           </span>
-          <span className="bannerIcon">
+          <span className="bannerIcon" style={redShadowStyle}>
             <FaLinkedinIn />
           </span>
         </div>
