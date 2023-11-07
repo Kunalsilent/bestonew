@@ -12,10 +12,12 @@ import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
+import Testi1 from './images/projects/testi1.avif';
 
 export {
  // logo,
   banner,
+  Testi1,
   projectOne,
   projectTwo,
   Companytwo,

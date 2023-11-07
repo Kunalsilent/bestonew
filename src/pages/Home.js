@@ -14,7 +14,7 @@ import '../app.css'
 function Home() {
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText px-4" style={{ backgroundColor: 'white' }}>
-        <Navbar />
+       
       <div className="max-w-screen-xl mx-auto">
         <Banner />
         <Company/>
@@ -23,8 +23,8 @@ function Home() {
         {/* <Resume /> */}
         {/* <Testimonial /> */}
         <Contact />
-        <Footer />
-        <FooterBottom />
+       
+      
       </div>
     </div>
   );

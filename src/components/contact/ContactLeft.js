@@ -31,17 +31,7 @@ const ContactLeft = () => {
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4 text-black">Find me in</h2>
-        <div className="flex gap-4">
-          <span className="bannerIcon" style={redShadowStyle}>
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon" style={redShadowStyle}>
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon" style={redShadowStyle}>
-            <FaLinkedinIn />
-          </span>
-        </div>
+        
       </div>
     </div>
   );
