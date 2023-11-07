@@ -86,7 +86,7 @@ function About() {
     </section>
 <br/>
       {/* card section start */}
-
+<br/>
       <section
       id="projects"
       className="w-full py-20 border-b-[1px] border-b-black"
