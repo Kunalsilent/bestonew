@@ -9,7 +9,7 @@ const MyNavbar = () => {
     <div>
      <Navbar bg="body-tertiary" expand="lg" className="fixed-top">
   <div className="container-fluid">
-    <Navbar.Brand href="#"  style={{ color: '#ff014f', fontWeight: '1000'}}><h2>Besto Consultency</h2></Navbar.Brand>
+    <Navbar.Brand href="#"  style={{ color: '#ff014f', fontWeight: '1000'}}><h2>Besto Consultancy Services</h2></Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarSupportedContent" />
     <Navbar.Collapse id="navbarSupportedContent">
       <Nav className="me-auto">
