@@ -13,6 +13,7 @@ import About from "./pages/About";
 import Careers from './pages/Careers'
 import Press from './pages/Press'
 import Security from "./pages/Security"
+import Global from './pages/Global'
 
 function App() {
   return (
@@ -38,6 +39,7 @@ const Router=()=>{
       <Route path='/Careers' element={<Careers/>}></Route>
       <Route path='/press' element={<Press/>}></Route>
       <Route path='/security' element={<Security/>}></Route>
+      <Route  path="/global" element={<Global/>}></Route>
     </Routes>
   )
 }

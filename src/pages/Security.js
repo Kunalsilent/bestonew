@@ -1,16 +1,19 @@
 // About.js
 import React from "react";
-import ProjectsCard from "../components/projects/ProjectsCard";
-import { projectOne, projectTwo, projectThree } from "../assets/index";
+
 import Title from "../components/layouts/Title";
-import { Container, Row, Col } from "react-bootstrap";
+
 import 'animate.css';
+
+import Security from "../components/resume/security";
+import security from "../assets/images/security.avif";
+
 
 
 function About() {
 
   const redShadowStyle = {
-    boxShadow: "0 0 10px #ff014f",
+    boxShadow: "0 0 10px #fff",
   };
   return (
     <>
@@ -20,19 +23,19 @@ function About() {
         <div className="w-full lgl:w-1/2 flex flex-col gap-20"> 
           <div className="flex flex-col gap-5">
             <br></br>
-            <h3 className=" text-lg font-normal text-black">WELCOME TO MY WORLD</h3>
+            <h3 className=" text-lg font-normal text-black">WELCOME TO Our Security</h3>
             <h2 className="text-5xl font-bold text-black">
-              Hyper Personalized and <span className="text-designColor capitalize"> Dynamic Career Sites   </span>
+            Data Rocks <span className="text-designColor capitalize">  We Make Sure It’s Safe.   </span>
             </h2>
             <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
-         Get your new career site off the ground in less than four weeks, at half the cost
-        </p>
+            safeguarding data is paramount to us. Our unwavering commitment to data security and privacy is at the forefront of our operations. We've implemented a robust data security framework that goes above and beyond industry standards. This framework not only ensures secure business operations but also guarantees that the personal and sensitive information of both our clients and their customers is protected with the utmost care.
+        <br/>Our comprehensive approach to data protection includes stringent access controls, encryption, regular security audits, and continuous monitoring. We prioritize data integrity and confidentiality, enabling our clients to entrust us with their most valuable asset – their data. By upholding the highest standards of security, we provide peace of mind to our clients, knowing that their information is safe and their trust is well-placed.</p>
           </div>
         </div>
         <div className="w-full lgl:w-1/2 flex justify-center items-center relative "  >
           <img
             className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
-            src=""
+            src={security}
             alt="Image"
           />
           <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center " style={redShadowStyle}></div>
@@ -46,65 +49,29 @@ function About() {
     >
       <div className="flex justify-center items-center text-center " >
         <Title
-          title="Powering"
-          des="The World’s Smartest Recruitment Teams"  
+          title="PEACE OF MIND"
+          des="Our Security and Data Privacy Framework"  
           
         />
        
       </div> 
-      <Row className="vh-100">
-        <Col md={6} className="animate__animated animate__bounceIn">
-          <img src=" " alt="Your Image" className="img-fluid" />
-        </Col>
-        <Col md={6} className="text-center d-flex align-items-center">
-          <p
-            style={{
-              color: "black",
-              fontSize: "24px",
-            }}
-          >
-            This paragraph is on the right side with a left-side image.
-          </p>
-        </Col>
-      </Row>
+     
        
     
       
     </section>
 
-      {/* card section start */}
-
-      <section
-      id="projects"
-      className="w-full py-20 border-b-[1px] border-b-black"
-    >
-      <div className="flex justify-center  items-center text-center">
-        <Title
-          title="HAPPY CUSTOMERS"
-          des="Teams details"
-        />
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        <ProjectsCard
-          title="HEALTHTRUST"
-          des=" How HealthTrust fully centralized its recruitment media with little to no effect!"
-       
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="LifeTIME"
-          des=" We had the time of our life with this recruitment advertising operations overhaul"
-          src={projectTwo}
-        />
-     
-        <ProjectsCard
-          title="oliverraine"
-          des=" This recruitment marketing agency in the UK changed the way media buying is done "
-          src={projectThree}
-        />
+      <Security/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       
-      </div>
-    </section>
+
     </>
   );
 }
