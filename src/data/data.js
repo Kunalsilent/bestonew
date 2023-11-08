@@ -18,7 +18,7 @@ export const featuresData = [
   {
     id: 3,
     icon: <SiProgress />,
-    title: "More great-fit candidates ",
+    title: "More great-fit candidataes ",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
   },
   {

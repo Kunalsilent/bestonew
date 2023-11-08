@@ -111,13 +111,13 @@ const Contact = () => {
                 />
               </div>
               <div className="flex flex-col gap-4">
-                <p className="text-sm text-black font-bold uppercase tracking-wide">
+                <p className="text-sm text-black font-bold uppercase tracking-wide ">
                   Message
                 </p>
                 <textarea
                   onChange={(e) => setMessage(e.target.value)} 
                   value={message}
-                 
+                  className=' rounded-md'
                   cols="30"
                   rows="8"
                 ></textarea>

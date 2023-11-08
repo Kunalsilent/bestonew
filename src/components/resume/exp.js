@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import ResumeCard from './ResumeCard';
 
-const Education = () => {
+const Exp = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -41,7 +41,7 @@ const Education = () => {
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">Get More Quantied applicants</p>
-          <h2 className="text-3xl md:text-4xl text-black font-bold">Not- Enough Great-Fit applicants</h2>
+          <h2 className="text-3xl text-black md:text-4xl font-bold">Not- Enough Great-Fit applicants</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
@@ -68,4 +68,4 @@ const Education = () => {
   );
 }
 
-export default Education
+export default Exp

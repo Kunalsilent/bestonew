@@ -34,5 +34,13 @@
 .link{
     text-decoration: none;
     color: black;
+    padding-top: 9px;
+  animation: 10;
+  opacity: 0.65;
 }
 
+element{
+    padding-top: 9px;
+  
+  opacity: 0.65;
+}

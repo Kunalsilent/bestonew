@@ -21,6 +21,12 @@ const MyNavbar = () => {
           <NavDropdown.Divider />
           <NavDropdown.Item href="#">Let's Talk</NavDropdown.Item>
         </NavDropdown>
+        <NavDropdown title="Solutions" style={{ marginLeft: '15px', fontWeight: 'bold' }} id="basic-nav-dropdown">
+          <NavDropdown.Item ><NavLink  className={"link"} to={'/products'}>Products</NavLink></NavDropdown.Item>
+          <NavDropdown.Item ><NavLink  className={"link"} to={'/problem'}>Problem We Solve</NavLink></NavDropdown.Item>
+          <NavDropdown.Item ><NavLink  className={"link"} to={'/work'}>Who We Work With</NavLink></NavDropdown.Item>
+    
+        </NavDropdown>
         <NavDropdown title="Company" style={{ marginLeft: '15px', fontWeight: 'bold' }} id="basic-nav-dropdown">
           <NavDropdown.Item ><NavLink  className={"link"} to={'/about'}>About Us</NavLink></NavDropdown.Item>
           <NavDropdown.Item><NavLink   className={"link"} to={'/contact'}>Contact Us</NavLink></NavDropdown.Item>
@@ -35,9 +41,9 @@ const MyNavbar = () => {
           <NavDropdown.Item ><NavLink  className={"link"} to={'/blog'}>Blog</NavLink></NavDropdown.Item>
           <NavDropdown.Item ><NavLink  className={"link"} to={'/resources'}>Resources</NavLink></NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="#">Let's Talk</NavDropdown.Item>
+          <NavDropdown.Item ><NavLink  className={"link" }  to={'/contact'}>Let's Talk</NavLink></NavDropdown.Item>
         </NavDropdown>
-        <NavLink to={''}  className={"link"} style={{ marginLeft: '15px', fontWeight: 'bold' }}>Let'sTalk</NavLink>
+        <NavLink to={'/contact'}  className={"link"} style={{ marginLeft: '15px', fontWeight: 'bold' }}>Let'sTalk</NavLink>
       </Nav>
       <Form className="d-flex">
         <FormControl type="search" placeholder="Search" aria-label="Search" /> 

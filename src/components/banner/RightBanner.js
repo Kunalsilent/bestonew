@@ -3,7 +3,7 @@ import { banner } from "../../assets/index";
 
 const RightBanner = () => {
   const redShadowStyle = {
-    boxShadow: "0 0 10px #ff014f",
+    boxShadow: "0 0 5px #ff014f",
   };
   return (
     <div className="w-full lgl:w-1/2 flex justify-center items-center relative "  >

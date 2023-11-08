@@ -14,6 +14,11 @@ import Careers from './pages/Careers'
 import Press from './pages/Press'
 import Security from "./pages/Security"
 import Global from './pages/Global'
+import Blog from './pages/Blog'
+import Resources from './pages/Resources'
+import Work from './pages/Work'
+import ProblemSolved from './pages/ProblemSolved'
+import Products from './pages/Products'
 
 function App() {
   return (
@@ -40,6 +45,11 @@ const Router=()=>{
       <Route path='/press' element={<Press/>}></Route>
       <Route path='/security' element={<Security/>}></Route>
       <Route  path="/global" element={<Global/>}></Route>
+      <Route path="/blog" element={<Blog/>}></Route>
+      <Route path="/resources" element={<Resources/>}></Route>
+      <Route path="/products" element={<Products/>}></Route>
+      <Route path="/problem" element={<ProblemSolved/>}></Route>
+      <Route path="/work" element={<Work/>}></Route>
     </Routes>
   )
 }
