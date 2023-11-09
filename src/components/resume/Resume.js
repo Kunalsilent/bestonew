@@ -30,7 +30,7 @@ const Resume = () => {
                 : "border-transparent text-black"
             } resumeLi`}
           >
-            Education
+             Can’t Measure Employer Branding ROI?
           </li>
           {/* <li
             onClick={() =>
@@ -58,7 +58,7 @@ const Resume = () => {
                 : "border-transparent text-black"
             } resumeLi`}
           >
-            Experience
+            High Cost Per Hire?
           </li>
           <li
             onClick={() =>
@@ -73,7 +73,7 @@ const Resume = () => {
                 : "border-transparent text-black"
             } resumeLi`}
           >
-            Exp
+          High Application Drop Off ?
           </li>
           <li
             onClick={() =>
@@ -88,7 +88,7 @@ const Resume = () => {
                 : "border-transparent text-black"
             } resumeLi`}
           >
-            Achievements
+            Don't Know Where You Stand
           </li>
         </ul>
       </div>

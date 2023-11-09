@@ -4,6 +4,11 @@ import Slider from "react-slick";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from '../layouts/Title'
 import { testimonialOne,testimonialTwo, quote } from "../../assets";
+import Mojopro from '../../assets/images/mojopro.avif'
+import Mojosocial1 from '../../assets/images/mojosocial1.avif'
+import Mojosocial from '../../assets/images/mojosocial.avif'
+import Mojoapply from '../../assets/images/mogoapply.avif'
+import Mojocrm from '../../assets/images/mojocrm.avif'
 
 
 function SampleNextArrow(props) {
@@ -103,7 +108,7 @@ const Productsbesto = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#fff] to-[#fff] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialOne}
+                  src={Mojopro}
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
@@ -150,7 +155,7 @@ const Productsbesto = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#ffff] to-[#ffff] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialTwo}
+                  src={Mojosocial1}
                   alt="testimonialTwo"
                 />
                 <div className="w-full flex flex-col justify-end">
@@ -197,7 +202,7 @@ const Productsbesto = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#ffff] to-[#ffff] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialOne}
+                  src={Mojosocial}
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
@@ -243,7 +248,7 @@ const Productsbesto = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#ffff] to-[#ffff] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialOne}
+                  src={Mojoapply}
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
@@ -290,7 +295,7 @@ const Productsbesto = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#ffff] to-[#ffff] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialOne}
+                  src={Mojocrm}
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
@@ -338,7 +343,7 @@ const Productsbesto = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#ffff] to-[#ffff] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialOne}
+                  src={Mojoapply}
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
@@ -385,7 +390,7 @@ const Productsbesto = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#ffff] to-[#ffff] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialOne}
+                  src={Mojocrm}
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">

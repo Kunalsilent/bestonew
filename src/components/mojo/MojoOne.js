@@ -34,32 +34,32 @@ const Mojoone = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Automated job ad placement"       
-          src=""
+          src="https://img.freepik.com/free-vector/man-using-chatbot-services-asking-questions-receiving-answers-flat-composition-vector-illustration_98292-9162.jpg?size=626&ext=jpg&ga=GA1.1.745243041.1698423410&semt=ais"
         />
         <ProjectsCard
-          title="Job-[evel targeting"
-          src=""
+          title="Job-evel targeting"
+          src="https://img.freepik.com/free-vector/mini-people-with-computer-target_24877-56140.jpg?size=626&ext=jpg&ga=GA1.1.745243041.1698423410&semt=ais"
         />
      
         <ProjectsCard
           title="Advanced targeting options"
-          src=""
+          src="https://img.freepik.com/free-vector/data-initiative-abstract-concept-illustration_335657-3706.jpg?size=626&ext=jpg&ga=GA1.1.745243041.1698423410&semt=ais"
         />
           <ProjectsCard
           title="Affinity audience targeting"
-          src=""
+          src="https://img.freepik.com/free-vector/audience-segmentation-abstract-concept-illustration_335657-1854.jpg?size=626&ext=jpg&ga=GA1.1.745243041.1698423410&semt=ais"
         />
           <ProjectsCard
           title="Lookalike audience targeting"
-          src=""
+          src="https://img.freepik.com/free-vector/generating-new-leads-concept-illustration_114360-7654.jpg?size=626&ext=jpg&ga=GA1.1.745243041.1698423410&semt=ais"
         />
           <ProjectsCard
           title="Diversity sourcing"
-          src=""
+          src="https://img.freepik.com/free-vector/globalization-concept-illustration_114360-8511.jpg?size=626&ext=jpg&ga=GA1.1.745243041.1698423410&semt=ais"
         />
           <ProjectsCard
           title="Single source of truth"
-          src=""
+          src="https://img.freepik.com/free-vector/patent-law-copyright-illustration_23-2148753973.jpg?size=626&ext=jpg&ga=GA1.1.745243041.1698423410&semt=ais"
         />
       
       </div>

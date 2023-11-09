@@ -12,27 +12,26 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">Quantify Your Return on Investment</p>
-          <h2 className="text-3xl md:text-4xl text-black font-bold">Can't Measure Employer Branding ROI</h2>
+          <p className="text-sm text-designColor tracking-[4px]">Problem We solve</p>
+          <h2 className="text-3xl md:text-4xl text-black font-bold">Missing Passive Candidates?</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Distribution Across the World Wide Web"
+            subTitle="The solutions"
+           
+            des="There are a lot of websites out there (like two million), where passive candidates spend their time. Meet them where they live and play, whether it’s shopping, news, social, or other sites."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Target Custom and Affinity Audiences, at a Job Level"
+            subTitle="The Solutions"
+           
+            des="Our AI-powered platform can help you intelligently target and attract the right candidates based on demographics, interests, and habits. You can also upload and target custom lists of great-fit candidates that have been qualified before or dropped off during the application process"
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Measure Against Active Candidate Sources"
+          
+            des="With a single dashboard to rule all sources, track and compare active and passive candidate activity. Let the data (and not guesswork) do the talking and decide where your spend should go."
           />
         </div>
       </div>
@@ -45,22 +44,19 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Target (and Retarget) the Right Candidates."
+          
+            des="Kick off your campaign knowing you’ve got the best sources for your jobs, guaranteed to deliver hires. Our AI chooses the right sources for every job category and location combination, based on hundreds of millions of data points. What’s more, it automatically allocates (or re-allocates) your budget to sources that bring in the most qualified applicants. More bang, same buck ."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="No Starved Jobs"
+        
+            des="Narrow the field at the job level – not just campaign level, like those other folks – and ensure your budget is spent where it’s needed the most. What does that mean, you ask? Well, we won’t let those easy-to-fill openings run away with your budget, while your hard-to-fill reqs are left to starve. Heck no!"
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Don’t Pay for Bad Traffic"
+           
+            des="Spot the bots, nix the invalid clicks, and stop paying for bad traffic, thanks to our AI-powered traffic filters. Instead, pay only when actual humans in the right locations apply for your openings. That’s who you want in your hiring funnel."
           />
         </div>
       </div>
