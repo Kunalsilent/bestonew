@@ -1,54 +1,25 @@
-import React,{useState} from 'react'
+import React from 'react'
 import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
+import { useForm} from '@formspree/react';
 
 const Contact = () => {
   const redShadowStyle = {
     boxShadow: "0 0 10px gray",
   };
   
-  const [username, setUsername] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
-  const [errMsg, setErrMsg] = useState("");
-  const [successMsg, setSuccessMsg] = useState("");
+
+  
 
   // ========== Email Validation start here ==============
-  const emailValidation = () => {
-    return String(email)
-      .toLocaleLowerCase()
-      .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
-  };
+
   // ========== Email Validation end here ================
 
-  const handleSend = (e) => {
-    e.preventDefault();
-    if (username === "") {
-      setErrMsg("Username is required!");
-    } else if (phoneNumber === "") {
-      setErrMsg("Phone number is required!");
-    } else if (email === "") {
-      setErrMsg("Please give your Email!");
-    } else if (!emailValidation(email)) {
-      setErrMsg("Give a valid Email!");
-    } else if (subject === "") {
-      setErrMsg("Plese give your Subject!");
-    } else if (message === "") {
-      setErrMsg("Message is required!");
-    } else {
-      setSuccessMsg(
-        `Thank you dear ${username}, Your Messages has been sent Successfully!`
-      );
-      setErrMsg("");
-      setUsername("");
-      setPhoneNumber("");
-      setEmail("");
-      setSubject("");
-      setMessage("");
-    }
-  };
+  
+  const [state, handleSubmit] = useForm("xrgwdnle");
+  if (state.succeeded) {
+      return <p>Thanks for joining!</p>;
+  }
   return (
     <section
       id="contact"
@@ -62,7 +33,8 @@ const Contact = () => {
           <ContactLeft /><br></br>
           <div className="w-full lgl:w-[60%] h-full py-10 bg-gray-200 text-black flex flex-col gap-8 p-4 lgl:p-8 shadow-red"
  style={redShadowStyle} >
-            <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5" >
+            <form onSubmit={handleSubmit} className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5" >
+         
              
               <div className="w-full flex flex-col lgl:flex-row gap-10 colo">
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
@@ -70,44 +42,39 @@ const Contact = () => {
                     Your name
                   </p>
                   <input
-  onChange={(e) => setUsername(e.target.value)}
-  value={username}
+  id="email"
+       
+ 
   className='bg-gray-100 h-10 p-2 rounded-md'
-  type="text"
+  type="text" name='Name' requirede
 />
+
                 </div>
-                <div className="w-full lgl:w-1/2 flex flex-col gap-4">
-                  <p className="text-sm text-black font-bold uppercase tracking-wide">
-                    Phone Number
-                  </p>
-                  <input
-                    onChange={(e) => setPhoneNumber(e.target.value)} className='bg-gray-100 h-10 p-2 rounded-md'
-                    value={phoneNumber}
-                   
-                    type="text"
-                  />
-                </div>
+                
               </div>
               <div className="flex flex-col gap-4">
                 <p className="text-sm text-black font-bold uppercase tracking-wide">
                   Email
                 </p>
                 <input
-                  onChange={(e) => setEmail(e.target.value)} className='bg-gray-100 h-10 p-2 rounded-md'
-                  value={email}
-                 
-                  type="email"
+                  className='bg-gray-100 h-10 p-2 rounded-md'
+                  id="email"
+        type="email" 
+        name="email"
+                 required
+                
                 />
+                
               </div>
               <div className="flex flex-col gap-4">
                 <p className="text-sm text-black  font-bold uppercase tracking-wide">
                   Subject
                 </p>
                 <input
-                  onChange={(e) => setSubject(e.target.value)} className='bg-gray-100 h-10 p-2 rounded-md'
-                  value={subject}
+                  className='bg-gray-100 h-10 p-2 rounded-md'
+                   name='Subject'
                  
-                  type="text"
+                  type="text" required
                 />
               </div>
               <div className="flex flex-col gap-4">
@@ -115,31 +82,21 @@ const Contact = () => {
                   Message
                 </p>
                 <textarea
-                  onChange={(e) => setMessage(e.target.value)} 
-                  value={message}
+                
                   className=' rounded-md'
                   cols="30"
-                  rows="8"
+                  rows="8" name='message' required
                 ></textarea>
               </div>
               <div className="w-full">
                 <button
-                  onClick={handleSend}
+                 type="submit"  disabled={state.submitting}
                   className="w-full h-12 bg-[gray] font-bold rounded-lg text-base text-black tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
                 >
                   Send Message
                 </button>
               </div>
-              {errMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
-                  {errMsg}
-                </p>
-              )}
-              {successMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
-                  {successMsg}
-                </p>
-              )}
+              
             </form>
           </div>
         </div>

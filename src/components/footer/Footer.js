@@ -27,36 +27,37 @@ const Footer = () => {
           Quick Link
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+        <li>
+  <a href="/about" className="w-full text-lg relative text-black hover:text-designColor duration-300 group cursor-pointer">
+    About
+    <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+  </a>
+</li>
           <li>
-            <span className="w-full text-lg relative text-black hover:text-designColor duration-300 group cursor-pointer">
-              About
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative  text-black hover:text-designColor duration-300 group cursor-pointer">
-            Products
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative text-black hover:text-designColor duration-300 group cursor-pointer">
-            Problems We Solve
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative text-black hover:text-designColor duration-300 group cursor-pointer">
-            Company
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative text-black hover:text-designColor duration-300 group cursor-pointer">
-              Contact
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+  <a href="/products" className="w-full text-lg relative text-black hover:text-designColor duration-300 group cursor-pointer">
+    Products
+    <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+  </a>
+</li>
+ <li>
+  <a href="/problem" className="w-full text-lg relative text-black hover:text-designColor duration-300 group cursor-pointer">
+    Problem we solve
+    <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+  </a>
+</li>
+         
+         <li>
+  <a href="/" className="w-full text-lg relative text-black hover:text-designColor duration-300 group cursor-pointer">
+    Company
+    <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+  </a>
+</li>
+           <li>
+  <a href="/contact" className="w-full text-lg relative text-black hover:text-designColor duration-300 group cursor-pointer">
+  Contact
+    <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+  </a>
+</li>
         </ul>
       </div>
       <div className="w-full h-full">
