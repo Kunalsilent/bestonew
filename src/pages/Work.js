@@ -55,20 +55,17 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Your product, our tech!"
-            subTitle=""
-            result=""
+        
             des="Bring your clients 21st-century, best-in-breed TA tech. Our end-to-end solution is the backbone you need to over deliver! From programmatic job advertising, to never-before-seen dynamic career sites, and enhanced candidate engagement via personalized sequences, we’ll help you help your clients achieve their goals (win!) and make you look like a rock star."
           />
           <ResumeCard
             title="Improve ad spend ROI"
-            subTitle=""
-            result=""
+       
             des="It’s time to cut the waste from your media budget. Don’t spend on paid media sources, where you don’t need to. Slash your ad spend on underperforming sources and double down on the ones that deliver. Move budget from easy-to-fill reqs, which already have (or can easily get) enough applicants, to jobs or markets that need it most. All thanks to the power of data and AI."
           />
           <ResumeCard
             title="Make media planning a science"
-            subTitle=""
-            result=""
+          
             des="Is your media planning an art or a science? Oftentimes it’s driven by guesswork, combined with a large helping of experience and a sprinkle of intuition. This approach takes a lot of time and effort, and the results aren’t always optimal. You and your clients deserve better (read, our AI-powered prediction and trading engine)."
           />
            
@@ -162,20 +159,17 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Find the right candidates, stat!"
-            subTitle=""
-            result=""
+        
             des="Our AI is ready and waiting to match your reqs with the right sources and audiences, hand in glove. With an eye on down-the-funnel metrics, you can be confident that your recruitment media budget is laser focused on delivering the most great-fit talent"
           />
           <ResumeCard
             title="Automate recruiter workflows"
-            subTitle=""
-            result=""
+          
             des="Ready to cut down on manual tasks? You know, like posting and optimizing across job boards, search engines, and social media? Instead, leave that work to our AI and give your team the time they need to do what they do so well: reeling in those great-fit candidates!"
           />
           <ResumeCard
             title="Centralize your media buying"
-            subTitle=""
-            result=""
+          
             des="When it comes to managing recruitment media buying, we know you work hard… and it ain’t easy. But we’ve got you covered! Source great-fit people across traditional, niche, and DE&I job sites, social media, Google for Jobs, even offline, you name it. We’re here to help you do it all and look like a rock star."
           />
         </div>

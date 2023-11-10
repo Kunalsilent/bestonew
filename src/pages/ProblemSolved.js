@@ -25,26 +25,26 @@ function Problem() {
             <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
             “We’ve done all the right things to create a great employer brand. We know we’re getting the right messages out on the right channels, so applicants can understand our culture and values. But, despite all of our best efforts, we still can’t quantify the ROI of our employer branding campaigns – specifically funnel conversions. Can you help?
         </p>
-        <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        <p className="text-base font-bodyFont leading-5 tracking-wide text-black"  style={{ marginBottom: '-28px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} /> Can’t Measure Employer Branding ROI?
         </p>
-        <p  className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        <p  className="text-base font-bodyFont leading-5 tracking-wide text-black"  style={{ marginBottom: '-28px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} /> Not Enough Great-Fit Applicants?
         </p>
-        <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        <p className="text-base font-bodyFont leading-5 tracking-wide text-black"  style={{ marginBottom: '-28px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} />High Cost Per Hire?
-        </p> <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        </p> <p className="text-base font-bodyFont leading-5 tracking-wide text-black"  style={{ marginBottom: '-28px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} /> Missing Passive Candidates?
-        </p> <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        </p> <p className="text-base font-bodyFont leading-5 tracking-wide text-black"  style={{ marginBottom: '-28px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} /> High Application Drop Off ?
-        </p> <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        </p> <p className="text-base font-bodyFont leading-5 tracking-wide text-black"  style={{ marginBottom: '-28px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} /> Lagging on DE&I Sourcing
 
         </p> 
-        <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        <p className="text-base font-bodyFont leading-5 tracking-wide text-black"  style={{ marginBottom: '-28px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} /> Don't Know Where You Stand
         </p> 
-        <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        <p className="text-base font-bodyFont leading-5 tracking-wide text-black"  style={{ marginBottom: '-28px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} />Too Many Platform, Too Much Info
         </p>
         

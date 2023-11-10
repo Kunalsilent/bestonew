@@ -31,19 +31,19 @@ const LeftBanner = () => {
           />
         </h2>
         
-        <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        <p className="text-base font-bodyFont leading-5 tracking-wide text-black" style={{ marginBottom: '-28px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} /> Get your new career site off the ground in less than four weeks, at half the cost
         </p>
-        <p  className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        <p  className="text-base font-bodyFont leading-5 tracking-wide text-black" style={{ marginBottom: '-28px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} /> Personalize the experience – show openings based on candidates’ skills, interests, or jobs similar to what they’ve previously viewed
         </p>
-        <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        <p className="text-base font-bodyFont leading-5 tracking-wide text-black" style={{ marginBottom: '-23px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} /> Build a talent community that engages candidates and brings them back, again and again
-        </p> <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        </p> <p className="text-base font-bodyFont leading-5 tracking-wide text-black" style={{ marginBottom: '-23px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} /> Pull in your social media feeds and keep your audience engaged with up-to-the minute info
-        </p> <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        </p> <p className="text-base font-bodyFont leading-5 tracking-wide text-black" style={{ marginBottom: '-23px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} /> Update your content, add/remove pages, and more in a matter of minutes – all thanks to a user-friendly content management system
-        </p> <p className="text-base font-bodyFont leading-5 tracking-wide text-black">
+        </p> <p className="text-base font-bodyFont leading-5 tracking-wide text-black" style={{ marginBottom: '-23px' }}>
         <FontAwesomeIcon icon={faCheckCircle} style={greenColor} /> Re-engage your audience through social ads, email, SMS, and other channels to bring them back into your funnel
         </p> 
       </div>
